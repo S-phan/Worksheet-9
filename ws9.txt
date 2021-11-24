@@ -1,0 +1,33 @@
+Script started on 2021-11-24 06:48:43+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo $(($RANDOM % 100))
+49
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo $(($RANDOM % 100))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi randomsample.sh [15@./randomsample.sh review_body.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pvi randomsample.sh[Cecho $(($RANDOM % 100))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kvi ram[Kndom[K[K[K[K[K[Krandomsample.sh 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"randomsample.sh" 13L, 196C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+
+[36mLINES[m=[35m$([m[35mcat [m[35m$2[m[33m|[m[35m wc -l[m[35m)[m
+[36mR_LINE[m=[35m$(($RANDOM[m[35m % [m[35mLINES))[m
+[33mecho[m[31m [m[33m"[m[35m$R_LINE[m[33m"
+
+echo[m[31m [m[33m"[m[31mrandom: [m[35m$1[m[33m"[m;
+
+[33mif [[m [33m"[m[35m$1[m[33m"[m [33m-ge[m [31m1[m [33m][m [33m&&[m [33m[[m [33m"[m[35m$1[m[33m"[m [33m-le[m [31m32[m [33m];[m [33mthen[m [33mecho[m[31m in range[m[33m;
+else[12;9Hecho[m[31m [m[33m"[m[31mout of range[m[33m"
+fi[m
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H6,0-1[9CAll[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [5;1H[24;63H5,1  [5;1H[?25h[?25l[24;53H~@k[5;1H[24;53H   [4;1H[24;63H4[4;1H[?25h[?25l[24;53H~@k[4;1H[24;53H   [3;1H[24;63H3[3;1H[?25h[?25l[24;53H~@k[3;1H[24;53H   [4;1H[24;63H4[4;1H[?25h[?25l[24;53H~@k[4;1H[24;53H   [5;1H[24;63H5[5;1H[?25h[?25l[24;53H~@k[5;1H[24;53H   [6;1H[24;63H6,0-1[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [7;1H[24;63H7,1  [7;1H[?25h[?25l[24;53H~@k[7;1H[24;53H   [8;1H[24;63H8,0-1[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [9;1H[24;63H9,1  [9;1H[?25h[?25l[24;53H~@k[9;1H[24;53H   [10;1H[24;63H10,1[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [11;1H[24;64H1,0-1[11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [12;1H[24;64H2,1  [12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [13;1H[24;64H3[13;1H[?25h[?25l[24;53H~@k[13;1H[24;53H   [12;1H[24;64H2[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [11;1H[24;64H1,0-1[11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [10;1H[24;64H0,1  [10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [9;1H[24;63H9,1 [9;1H[?25h[?25l[24;53H~@k[9;1H[24;53H   [8;1H[24;63H8,0-1[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [7;1H[24;63H7,1  [7;1H[?25h[?25l[24;53H~@k[7;1H[24;53H   [6;1H[24;63H6,0-1[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [5;1H[24;63H5,1  [5;1H[?25h[?25l[24;53H~@k[5;1H[24;53H   [4;1H[24;63H4[4;1H[?25h[?25l[24;53H~@k[4;1H[24;53H   [3;1H[24;63H3[3;1H[?25h[?25l[24;53H~@k[3;1H[24;53H   [2;1H[24;63H2,0-1[2;1H[?25h[?25l[24;53H:[2;1H[24;1H[K[24;1H:[?2004h[?25hx[?25l[?2004l[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;phans@f6linux17: ~phans@f6linux17:~$ vi randomsample.sh echo $(($RANDOM % 100))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi randomsample.sh [15@./randomsample.sh review_body.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pvi randomsample.sh[Cecho $(($RANDOM % 100))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi randomsample.sh [K./randomsample.sh 10 100_amazon.txt
+99
+random: 10
+in range
+]0;phans@f6linux17: ~phans@f6linux17:~$ ./randomsample.sh 10 100_amazon.txt[C[1P 100_amazon.txt[1P 100_amazon.txt4 100_amazon.txt9 100_amazon.txt[C[C
+53
+random: 49
+out of range
+]0;phans@f6linux17: ~phans@f6linux17:~$ ./randomsample.sh 49 100_amazon.txt10[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pvi randomsample.sh echo $(($RANDOM % 100))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi randomsample.sh echo $(($RANDOM % 100))
+22
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo $(($RANDOM % 100))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./randomsample.sh 49 100_amazon.txt[1P 100_amazon.txt[1P 100_amazon.txt2 100_amazon.txt2 100_amazon.txt
+70
+random: 22
+in range
+]0;phans@f6linux17: ~phans@f6linux17:~$ history [K > cmd.log
+]0;phans@f6linux17: ~phans@f6linux17:~$ exit
+
+Script done on 2021-11-24 06:50:46+00:00 [COMMAND_EXIT_CODE="0"]
